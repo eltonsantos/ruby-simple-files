@@ -1,0 +1,5 @@
+def rot13(secret_messages)
+  secret_messages.map { |c| c.tr("a-z", "n-za-m") }
+end
+
+# SELECT COUNTRY.CONTINENT, FLOOR(AVG(CITY.POPULATION)) FROM CITY JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE GROUP BY COUNTRY.CONTINENT;
